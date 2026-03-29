@@ -1,0 +1,19 @@
+/gov-exam-portal
+├── /backend
+│   ├── server.js            # Express Entry Point
+│   ├── db.js                # PostgreSQL Connection
+│   ├── /routes
+│   │   ├── admin.js         # Bulk Upload & Key Gen
+│   │   └── exam.js          # Exam Logic & Results
+│   └── /middleware
+│       └── auth.js          # 30-Day Access Validator
+├── /frontend
+│   ├── /public/fonts        # Store SolaimanLipi.ttf here
+│   ├── /components          # ExamCard, Timer, Leaderboard
+│   └── /styles
+│       └── globals.css      # Font & UI Logic
+├── /scripts
+│   └── bulk-upload.js       # CSV to DB Script
+├── .gitignore
+├── package.json
+└── README.md                # Full Documentation
